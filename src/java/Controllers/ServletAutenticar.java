@@ -32,6 +32,8 @@ public class ServletAutenticar extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         
         PrintWriter out= response.getWriter();
-        out.println("Este es un servlet con un metodo post");
+       String login= request.getParameter("login");
+       String password= request.getParameter("password");
+        out.println("El login que llego es: "+login+" y el password es : "+password);
     }
 }

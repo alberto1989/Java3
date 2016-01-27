@@ -18,8 +18,8 @@
         <p>Datos de Autentificacion</p>
         
         <form action="autenticar" method="POST">
-            <input type="text" name="Login" placeholder="Escribe tu Login"/>
-            <input type="password" name="Password" placeholder="Escribe tu password"/>
+            <input type="text" name="login" placeholder="Escribe tu Login"/>
+            <input type="password" name="password" placeholder="Escribe tu password"/>
             <input type="submit" value="Autenticar">
             
             
